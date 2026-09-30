@@ -1,0 +1,408 @@
+/* ==============================
+   CONFIGURAÇÕES GERAIS
+============================== */
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* ==============================
+   CABEÇALHO
+============================== */
+
+header {
+    background-color: #17526b;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* ==============================
+   CONTEÚDO
+============================== */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+    color: #171b6b;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #172c6b;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+
+/* ==============================
+   LINKS
+============================== */
+
+main a {
+    display: inline-block;
+    background-color: #17256b;
+    color: white;
+    padding: 10px 18px;
+    margin-top: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+main a:hover {
+    background-color: #122455;
+}
+
+
+/* ==============================
+   PROJETOS
+============================== */
+
+article {
+    padding: 20px;
+    margin-top: 15px;
+    border-left: 5px solid #17256b;
+    background-color: #f7f9f8;
+    border-radius: 5px;
+}
+
+
+/* ==============================
+   FORMULÁRIO
+============================== */
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #174e6b;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #176b5b;
+}
+
+
+/* ==============================
+   VALIDAÇÃO
+============================== */
+
+#erroCpf {
+    display: block;
+    color: red;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#mensagemCep {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#cpf.campo-erro {
+    border: 2px solid #dc3545;
+}
+
+#cpf.campo-correto {
+    border: 2px solid #28a745;
+}
+
+
+/* ==============================
+   BOTÃO
+============================== */
+
+button {
+    padding: 13px 25px;
+    background-color: #176b5b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #123055;
+}
+
+
+/* ==============================
+   RODAPÉ
+============================== */
+
+footer {
+    background-color: #17406b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    flex: 1 1 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #2e447d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #211b5e;
+}
+
+footer {
+    background-color: #1b1e5e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* TABLET GRANDE */
+@media (max-width: 1200px) {
+    main {
+        max-width: 95%;
+    }
+}
+
+/* TABLET */
+@media (max-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* TABLET PEQUENO */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 576px) {
+    header {
+        padding: 20px 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
+
+/* CELULAR PEQUENO */
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+/* ALERTA */
+.alerta {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* TOAST */
+.toast {
+    background-color: #2e7d32;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+#mensagem {
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#mensagem.erro {
+    color: #b00020;
+}
+
+#mensagem.sucesso {
+    color: #1b7f3a;
+}
