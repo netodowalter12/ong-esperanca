@@ -11,3 +11,8 @@ function obterCadastro() {
 
     return null;
 }
+
+export {
+    salvarCadastro,
+    obterCadastro
+};

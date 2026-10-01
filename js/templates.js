@@ -23,7 +23,7 @@ function templateProjetos() {
                 <h3>Projeto Alimentar</h3>
 
                 <img
-                    src="img/pexels-rdne-6646981.jpg"
+                    src="img/pexels-rdne-6646981.webp"
                     alt="Voluntários da ONG Esperança distribuindo alimentos para famílias"
                 >
 
@@ -42,7 +42,7 @@ function templateProjetos() {
                 <h3>Educação para Todos</h3>
 
                 <img
-                    src="img/pexels-lagosfoodbank-9090747.jpg"
+                    src="img/pexels-lagosfoodbank-9090747.webp"
                     alt="Voluntários realizando atividades educativas com crianças"
                 >
 
@@ -61,7 +61,7 @@ function templateProjetos() {
                 <h3>Campanha do Agasalho</h3>
 
                 <img
-                    src="img/pexels-shkrabaanthony-7345399.jpg"
+                    src="img/pexels-shkrabaanthony-7345399.webp"
                     alt="Voluntários com cesta de doações de agasalhos"
                 >
 
@@ -80,7 +80,7 @@ function templateProjetos() {
                 <h3>Voluntariado Comunitário</h3>
 
                 <img
-                    src="img/pexels-rdne-6646917.jpg"
+                    src="img/pexels-rdne-6646917.webp"
                     alt="Voluntários atendendo uma pessoa necessitada"
                 >
 
@@ -117,3 +117,9 @@ function templateCadastro() {
         <div id="mensagem"></div>
     `;
 }
+
+export {
+    templateInicio,
+    templateProjetos,
+    templateCadastro
+};

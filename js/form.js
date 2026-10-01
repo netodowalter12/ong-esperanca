@@ -1,3 +1,5 @@
+import { obterCadastro, salvarCadastro } from "./storage.js";
+
 function configurarFormulario() {
     const formulario = document.getElementById("formCadastro");
 
@@ -41,3 +43,4 @@ function configurarFormulario() {
 });
     });
 }
+export { configurarFormulario };

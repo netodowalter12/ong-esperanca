@@ -1,3 +1,11 @@
+import {
+    templateInicio,
+    templateProjetos,
+    templateCadastro
+} from "./templates.js";
+
+import { configurarFormulario } from "./form.js";
+
 const app = document.getElementById("app");
 
 function mostrarInicio() {
