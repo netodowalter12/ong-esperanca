@@ -137,3 +137,15 @@ https://netodowalter12.github.io/ong-esperanca/
 👨‍💻 Projeto acadêmico
 
 Projeto desenvolvido como atividade acadêmica do curso de Análise e Desenvolvimento de Sistemas.
+
+## GitFlow
+
+O projeto utiliza uma estratégia baseada no GitFlow para organizar o desenvolvimento e o controle de versões.
+
+- **main:** branch principal, utilizada para versões estáveis e entregues do projeto.
+- **develop:** branch destinada ao desenvolvimento contínuo, reunindo as alterações antes de serem disponibilizadas na `main`.
+- **feature/**: branches utilizadas para desenvolver novas funcionalidades de forma isolada. Exemplo: `feature/documentacao`.
+- **hotfix/**: branches utilizadas para correções urgentes em versões estáveis. Exemplo: `hotfix/correcao`.
+- **acessibilidade:** branch utilizada para desenvolvimento das melhorias relacionadas à acessibilidade do projeto.
+
+Essa organização permite separar o desenvolvimento das versões estáveis, facilitar o trabalho com novas funcionalidades e manter um fluxo organizado de correções e entregas.
