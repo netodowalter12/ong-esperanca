@@ -406,3 +406,18 @@ footer {
 #mensagem.sucesso {
     color: #1b7f3a;
 }
+
+body.alto-contraste {
+    background-color: #000;
+    color: #fff;
+}
+
+body.alto-contraste a {
+    color: #ffff00;
+}
+
+body.alto-contraste button {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+}

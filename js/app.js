@@ -29,3 +29,11 @@ function carregarRota() {
 carregarRota();
 
 window.addEventListener("hashchange", carregarRota);
+
+const botaoContraste = document.getElementById("alto-contraste");
+
+if (botaoContraste) {
+    botaoContraste.addEventListener("click", () => {
+        document.body.classList.toggle("alto-contraste");
+    });
+}
